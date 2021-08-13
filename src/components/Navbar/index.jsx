@@ -1,12 +1,11 @@
 import React from 'react'
 import './styles.css'
+import { NelsonPeluqueriaSpa } from '../../components/svgs/spaNelson'
 
 export function Navbar () {
   return (
     <nav className='home__header'>
-      <h1 className='home__title'>
-        Nelson <span> Peluqueria Spa </span>
-      </h1>
+      <NelsonPeluqueriaSpa />
     </nav>
   )
 }

@@ -2,6 +2,8 @@ import React from 'react'
 
 export function Services () {
   return (
-    <div>asdnajsndjasdnakjsnd</div>
+    <div>
+      <h2> </h2>
+    </div>
   )
 }

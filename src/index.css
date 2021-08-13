@@ -8,11 +8,15 @@
   --five: #eef0f5;
   --six: #0d0c22;
   --seven: #FAFAFA;
+  --eight: #540e5d;
   --nav: rgba(255,255,255,0.72);
+  --mobileDevices: 480px;
+  --Tablets: 768px;
 }
 #root {
   height: 100vh;
   margin: 0;
+  box-sizing: border-box;
   padding: 0;
 }
 
