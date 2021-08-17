@@ -29,6 +29,7 @@
 .description__text_p {
  display: flex;
  flex-direction: column;
+ padding: 10px;
 }
 .description__text_p p{
  margin: 0;

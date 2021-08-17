@@ -12,7 +12,9 @@
   --nav: rgba(255,255,255,0.72);
   --mobileDevices: 480px;
   --Tablets: 768px;
+  --shirt: #ad0b19;
 }
+
 #root {
   height: 100vh;
   margin: 0;
@@ -27,6 +29,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 *::selection {
   background-color: #ea4c89;
 }
