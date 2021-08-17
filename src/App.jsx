@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Home from './pages/home'
 import { Layout } from './Layout'
 import { Description } from './components'
@@ -14,6 +14,8 @@ function App () {
   const style = {
     container: 'flex-direction: row'
   }
+
+  const LazySlider = React.lazy(() => import('./components/Slider'))
   return (
     <>
       <Home />
@@ -66,6 +68,9 @@ function App () {
         />
       </Layout>
       <Services />
+      <Suspense fallback={<div>LOADING....</div>}>
+        <LazySlider />
+      </Suspense>
     </>
   )
 }
