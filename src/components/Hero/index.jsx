@@ -7,8 +7,7 @@ export function Hero () {
       <div className='home__container'>
         <div>
           <h1 className='home__subtitle'>
-            No cortamos pelo,
-            te rompemos las patas
+            Cortamos pelo
           </h1>
         </div>
         <a target='_blank' className='home__anchor'>
