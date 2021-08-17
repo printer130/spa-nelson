@@ -10,7 +10,12 @@ export function Hero () {
             Cortamos pelo
           </h1>
         </div>
-        <a target='_blank' className='home__anchor'>
+        <a
+          href='https://wa.link/4xfia9'
+          target='_blank'
+          className='home__anchor'
+          rel='noreferrer'
+        >
           Contactar por WhatsApp
         </a>
       </div>

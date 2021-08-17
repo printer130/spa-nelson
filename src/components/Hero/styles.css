@@ -32,6 +32,7 @@
     height: 36px;
     display: grid;
     place-content: center;
+    text-decoration: none;
     color: var(--five);
     font-weight: bold;
 }
