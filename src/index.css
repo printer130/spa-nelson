@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
-
 *, html {
   --one: #87CFD6;
   --two: #00B9C6;
@@ -45,6 +43,9 @@ p {
 h2 {
   font-size: 42px;
   color: var(--six);
+  width: 300px;
+  margin: 0 auto;
+  max-width: 420px;
 }
 
 #root section .layout__container:nth-child(1) {

@@ -1,6 +1,3 @@
 .home__main {
-  background-image: url('./bg.svg');
-  background-repeat: no-repeat;
-  background-position: right;
   flex: 1 0 auto;
 }

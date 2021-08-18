@@ -36,7 +36,7 @@
 }
 
 .description__text_p p{
- margin: 0;
+ margin: 0 auto;
 }
 
 .position {
@@ -48,9 +48,13 @@
 
 .description__p {
  font-size: 1rem;
- letter-spacing: .7px;
+ letter-spacing: .3px;
+ width: 270px;
+ margin: 0 auto;
  line-height: 1.2;
+ text-align: center;
 }
+
 .description__container_services {
  display: flex;
  flex-direction: column;
@@ -69,6 +73,9 @@
  text-align: center;
  flex-wrap: wrap;
  letter-spacing: .3px;
+ text-align: center;
+ width: 270px;
+ max-width: 420px;
 }
 
 .description__services_price {

@@ -7,7 +7,7 @@ export function Hero () {
       <div className='home__container'>
         <div>
           <h1 className='home__subtitle'>
-            Cortamos pelo
+            Nelson Peluqueria <span> Spa</span>
           </h1>
         </div>
         <a

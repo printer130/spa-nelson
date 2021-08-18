@@ -4,6 +4,7 @@
   height: 100%;
   align-items: center;
 }
+
 .carousel__list {
   display: flex;
   list-style: none;
