@@ -21,7 +21,11 @@ export function Hero () {
       </div>
       <div>
         <picture>
-          <img className='hero__image' src='https://res.cloudinary.com/djc1umong/image/upload/v1628785222/PRO2_h5d5hr.png' alt='nelson' />
+          <img
+            className='hero__image'
+            src='https://res.cloudinary.com/djc1umong/image/upload/v1628785222/PRO2_h5d5hr.png'
+            alt='nelson'
+          />
         </picture>
       </div>
     </section>

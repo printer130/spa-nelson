@@ -1,12 +1,9 @@
 import React from 'react'
 import styles from './description.module.css'
-import { useStyles } from '../../hooks/useStyles'
 import { Close } from '../svgs/close'
 import { SliderList } from '../SliderList'
 
-export function Description ({ image, title, p, ornament = null, ornament1 = null, ornament2 = null, ornament3 = null, altImage, altOrnament, stylesConfig = null, servicesDesc1, servicesDesc2, servicesDesc3, servicesTitle, servicesPrice }) {
-  const { ref } = useStyles({ stylesConfig })
-
+export function Description ({ image, title, p, ornament = null, ornament1 = null, ornament2 = null, ornament3 = null, altImage, altOrnament, servicesDesc1, servicesDesc2, servicesDesc3, servicesTitle, servicesPrice }) {
   return (
     <div className={styles.description}>
       <img className={styles.position} src={ornament} alt={altOrnament} />
@@ -20,14 +17,13 @@ export function Description ({ image, title, p, ornament = null, ornament1 = nul
         ornament3 && <img className={styles.position} src={ornament3} alt={altOrnament} />
       }
       <div
-        ref={ref}
         id={styles.description__container}
       >
         <picture>
           <SliderList />
         </picture>
         <div className={styles.description__text}>
-          <h2 ref={ref}>{title}</h2>
+          <h2>{title}</h2>
           <div className={styles.description__text_p}>
             <p className={styles.description__p}> <i> <small> <b>"</b> {p} <b>"</b> </small> </i> </p>
             <div className={styles.description__container_services}>

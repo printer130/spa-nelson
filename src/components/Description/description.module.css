@@ -27,6 +27,7 @@
 .description__text {
  width: 345px;
  text-align: center;
+ padding-top: 2.125rem;
 }
 
 .description__text_p {
