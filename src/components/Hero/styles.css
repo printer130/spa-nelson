@@ -31,10 +31,11 @@
     width: 50%;
     height: 36px;
     display: grid;
-    place-content: center;
     text-decoration: none;
     color: var(--five);
     font-weight: bold;
+    place-content: center;
+    text-align: center;
 }
 
 .hero__image {

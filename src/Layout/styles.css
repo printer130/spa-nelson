@@ -1,5 +1,6 @@
 .layout__container {
  padding: 1rem;
+ overflow: hidden;
 }
 
 .section__container {

@@ -3,6 +3,10 @@
  position: relative;
 }
 
+#description__container:nth-child(3) {
+ flex-direction: row;
+}
+
 #description__container {
  display: flex;
  flex-direction: row-reverse;
@@ -11,7 +15,6 @@
  border-bottom: 10px solid var(--three);
  margin-bottom: 1.5rem;
  justify-content: space-evenly;
- position: relative;
 }
 
 .description_image {
@@ -96,5 +99,8 @@
  }
  .position:nth-child(1) {
   display: none;
+ }
+ #description__container:nth-child(3) {
+  flex-direction: column;
  }
 }

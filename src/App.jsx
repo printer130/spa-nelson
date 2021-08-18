@@ -10,12 +10,11 @@ const hatImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628795461/fu
 const eyeImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628790293/fuegoEyes_heopfx.webp'
 const pineImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628721569/pine_oadiet.webp'
 
-function App () {
-  const style = {
-    container: 'flex-direction: row'
-  }
+const style = {
+  container: 'flex-direction: row'
+}
 
-  const LazySlider = React.lazy(() => import('./components/Slider'))
+function App () {
   return (
     <>
       <Home />
@@ -68,9 +67,6 @@ function App () {
         />
       </Layout>
       <Services />
-      <Suspense fallback={<div>LOADING....</div>}>
-        <LazySlider />
-      </Suspense>
     </>
   )
 }

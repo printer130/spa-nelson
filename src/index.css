@@ -33,7 +33,9 @@ body {
 *::selection {
   background-color: #ea4c89;
 }
-
+ul {
+ padding: 0;
+}
 p {
   line-height: 150%;
   font-size: large;
@@ -43,4 +45,9 @@ p {
 h2 {
   font-size: 42px;
   color: var(--six);
+}
+
+#root section .layout__container:nth-child(1) {
+  flex-direction: row;
+  background-color: #0d0c22;
 }
