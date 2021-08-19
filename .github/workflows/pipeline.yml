@@ -10,10 +10,15 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-audit --no-optional --no-fund
       - name: Linter
         run: npm run lint
+      - name: BUILD
+        run: npm run build
+        
