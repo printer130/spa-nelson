@@ -2,8 +2,8 @@
   "name": "spa-nelson",
   "version": "0.0.1",
   "scripts": {
-    "start": "vite preview",
     "dev": "vite",
+    "start": "vite preview",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "npx standard ./src/**/*.{jsx,js}"
