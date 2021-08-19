@@ -16,9 +16,14 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install --no-audit --no-optional --no-fund
+        run: npm ci --no-audit --no-optional --no-fund
       - name: Linter
         run: npm run lint
       - name: BUILD
         run: npm run build
-        
+      - name: Deploy to HEROKU
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: ${{secrets.HEROKU_APP}}
+          heroku_email: ${{secrets.HEROKU_API_EMAIL}}
