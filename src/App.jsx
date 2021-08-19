@@ -3,6 +3,7 @@ import Home from './pages/home'
 import { Layout } from './Layout'
 import { Description } from './components'
 import { Services } from './pages/services'
+import { version } from '../package.json'
 
 const sofaImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628720883/sofa_avjdc2.webp'
 const mouthImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628793956/fuegoMouth_on5m8e.webp'
@@ -10,9 +11,7 @@ const hatImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628795461/fu
 const eyeImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628790293/fuegoEyes_heopfx.webp'
 const pineImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628721569/pine_oadiet.webp'
 
-const style = {
-  container: 'flex-direction: row'
-}
+console.log(version)
 
 function App () {
   return (
@@ -34,7 +33,6 @@ function App () {
           p=' Coloración  de cabello que aclara ligeramente y luce un aspecto natural como aclarado por el sol, con tonos más claros en las puntas.'
         />
         <Description
-          stylesConfig={style}
           ornament={eyeImg}
           ornament1={mouthImg}
           image='./b1T.png'
