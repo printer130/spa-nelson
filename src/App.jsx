@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import Home from './pages/home'
 import { Layout } from './Layout'
 import { Description } from './components'
