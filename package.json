@@ -2,7 +2,7 @@
   "name": "spa-nelson",
   "version": "0.0.1",
   "scripts": {
-    "start": "node preview",
+    "start": "vite preview",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
