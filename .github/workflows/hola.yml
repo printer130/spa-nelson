@@ -1,0 +1,15 @@
+name: Di hola a que si
+
+on:
+  push:
+    branches:
+      - master
+
+
+jobs:
+  hola_mundo:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo the message
+        run: |
+          echo 'hola leoncii!'
