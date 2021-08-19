@@ -11,7 +11,7 @@ const hatImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628795461/fu
 const eyeImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628790293/fuegoEyes_heopfx.webp'
 const pineImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628721569/pine_oadiet.webp'
 
-console.log(version)
+console.log('V:', version)
 
 function App () {
   return (
