@@ -3,7 +3,21 @@ import styles from './description.module.css'
 import { Close } from '../svgs/close'
 import { SliderList } from '../SliderList'
 
-export function Description ({ image, title, p, ornament = null, ornament1 = null, ornament2 = null, ornament3 = null, altImage, altOrnament, servicesDesc1, servicesDesc2, servicesDesc3, servicesTitle, servicesPrice }) {
+export function Description ({
+  title,
+  p,
+  ornament = null,
+  ornament1 = null,
+  ornament2 = null,
+  ornament3 = null,
+  altOrnament,
+  servicesDesc1,
+  carouselImages,
+  servicesDesc2,
+  servicesDesc3,
+  servicesTitle,
+  servicesPrice
+}) {
   return (
     <div className={styles.description}>
       <img className={styles.position} src={ornament} alt={altOrnament} />
@@ -20,7 +34,9 @@ export function Description ({ image, title, p, ornament = null, ornament1 = nul
         id={styles.description__container}
       >
         <picture>
-          <SliderList />
+          <SliderList
+            carouselImages={carouselImages}
+          />
         </picture>
         <div className={styles.description__text}>
           <h2>{title}</h2>
