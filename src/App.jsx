@@ -20,7 +20,7 @@ function App () {
       <Layout>
         <Description
           ornament={sofaImg}
-          image='./b1T.png'
+          image='./b1T.webp'
           title='Balayage'
           servicesPrice='250 Bs.'
           servicesTitle='Decoloración Balayage o Mechas tipo Balayage'
@@ -35,7 +35,7 @@ function App () {
         <Description
           ornament={eyeImg}
           ornament1={mouthImg}
-          image='./b1T.png'
+          image='./b1T.webp'
           title='Rayitos o Mechas'
           servicesTitle='Rayitos o Mechas'
           servicesDesc1='Tinte Base'
@@ -52,7 +52,7 @@ function App () {
           ornament1={pineImg}
           ornament2={mouthImg}
           ornament3={hatImg}
-          image='./b1T.png'
+          image='./b1T.webp'
           title='Corte y Tinte'
           servicesDesc1='Corte'
           servicesDesc2='Tinte'
