@@ -1,9 +1,8 @@
 import React, { useRef, useEffect } from 'react'
 import { Slider } from '../Slider'
-import { images } from '../../api/images'
 import './styles.css'
 
-export function SliderList () {
+export function SliderList ({ carouselImages }) {
   const carouselListRef = useRef()
   const carouselItems = useRef()
 
@@ -59,7 +58,7 @@ export function SliderList () {
       <div className='carousel'>
         <ul ref={carouselListRef} className='carousel__list'>
           {
-          images.map(({ dataPos, src, alt }) => {
+          carouselImages.map(({ dataPos, src, alt }) => {
             return (
               <Slider
                 key={+dataPos}

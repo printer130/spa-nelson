@@ -7,6 +7,7 @@
  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
  position: absolute;
  transition: all 0.3s ease-in;
+ object-fit: contain;
  border: 10px solid var(--five);
 }
 
@@ -15,23 +16,23 @@
 }
 
 .carousel__item:nth-child(1) {
- background: linear-gradient(45deg, #2D35EB 0%, #904ED4 100%);
+ background: linear-gradient(45deg, #666ce0 0%, #904ED4 100%);
 }
 
 .carousel__item:nth-child(2) {
- background: linear-gradient(45deg, #2D35EB 0%, #fdbb2d 100%);
+ background: linear-gradient(45deg, #666ce0 0%, #f3d186 96%);
 }
 
 .carousel__item:nth-child(3) {
- background: linear-gradient(45deg, #2D35EB 0%, #22c1c3 100%);
+ background: linear-gradient(45deg, #666ce0 0%, #22c1c3 96%);
 }
 
 .carousel__item:nth-child(4) {
- background: linear-gradient(45deg, #fdbb2d 0%, #904ED4 100%);
+ background: linear-gradient(45deg, #e7c272 0%, #904ED4 96%);
 }
 
 .carousel__item:nth-child(5) {
- background: linear-gradient(45deg, #22c1c3 0%, #904ED4 100%);
+ background: linear-gradient(45deg, #22c1c3 0%, #904ED4 96%);
 }
 
 .carousel__item[data-pos="0"] {
