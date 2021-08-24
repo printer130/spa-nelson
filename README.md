@@ -5,4 +5,4 @@
 
 🔥 👀 🧷
 
-<https://spa-nelson-leoncii.vercel.app/>
+<https://spa-nelson.vercel.app/>
