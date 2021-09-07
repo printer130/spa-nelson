@@ -5,4 +5,4 @@
 
 🔥 👀 🧷
 
-<https://spa-nelson.vercel.app/>
+<https://nelson-peluqueria.com/>
