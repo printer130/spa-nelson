@@ -1,5 +1,4 @@
 import { useRef, useEffect, useState } from 'react'
-import classes from './styles.css'
 
 export function Hero () {
   const ref = useRef(null)
