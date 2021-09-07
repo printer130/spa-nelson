@@ -1,4 +1,5 @@
 .home__section {
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,6 +12,7 @@
 }
 
 .home__container {
+    position: relative;
     max-width: 464px;
     display: flex;
     padding: 1rem;
@@ -21,24 +23,29 @@
 
 .home__subtitle {
     font-size: 48px;
+    position: relative;
     font-weight: 700;
     line-height: 56px;
     margin: 0;
     margin-bottom: 1rem;
 }
+.home__subtitle span {
+    color: #ec4887;
+}
+.home__anchor_container {
+    position: sticky;
+}
 
 .home__anchor {
-    position: static;
-    cursor: pointer;
     border-radius: 7px;
     background-color: var(--four);
-    padding: .3rem .8rem;
+    padding: .55rem .8rem;
     width: 50%;
-    height: 32px;
+    height: 31px;
     display: grid;
     text-decoration: none;
     color: var(--five);
-    font-weight: bold;
+    font-weight: 300;
     place-content: center;
     text-align: center;
 }
@@ -52,7 +59,26 @@
     border-radius: 50%;
 }
 
-
+.portal {
+    display: flex;
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    z-index: 99;
+    width: 270px;
+    background: #ec4887;
+    height: 31px;
+    place-content: center;
+    text-decoration: none;
+    font-weight: 300;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 7px;
+}
+.portal span {
+    margin-left: 4px;
+    color: var(--cero);
+}
 
 @media only screen and (max-width: 768px) {
   .home__section {

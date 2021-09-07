@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles.css'
 import { NelsonPeluqueriaSpa } from '../../components/svgs/spaNelson'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles.css'
 
 export function Slider ({ className, carouselItemsRef, dataPos, src, alt }) {

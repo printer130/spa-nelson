@@ -1,4 +1,3 @@
-import React from 'react'
 import { Navbar, Hero } from '../../components'
 
 import './styles.css'

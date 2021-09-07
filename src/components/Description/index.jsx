@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './description.module.css'
 import { Close } from '../svgs/close'
 import { SliderList } from '../SliderList'
