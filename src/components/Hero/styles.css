@@ -106,14 +106,9 @@
   }
 
   .home__anchor {
-      position: sticky;
-      position: -webkit-sticky;
-      border: 2px solid var(--three);
-      background-color: var(--five);
-      color: var(--six);
-      font-weight: bold;
-      top: 200px;
-      left: 0;
-      right: inherit;
+      width: auto;
+  }
+  .portal {
+      bottom: 50px;
   }
 }

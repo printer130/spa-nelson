@@ -1,4 +1,5 @@
 import { useRef, useEffect, useState } from 'react'
+import './styles.css'
 
 export function Hero () {
   const ref = useRef(null)
@@ -16,7 +17,6 @@ export function Hero () {
     })
   }
 
-  console.log('|isIntersecting|', isIntersecting)
   useEffect(() => {
     const observer = new window.IntersectionObserver(handleIntersection, { threshold: 0.5 })
     observer.observe(ref.current)
@@ -49,7 +49,7 @@ export function Hero () {
               className='home__anchor'
               rel='noreferrer'
             >
-              Contactar con Nelson por whatsapp
+              Contactar con Nelson por <span> whatsapp </span>
             </a>
           </div>
         </div>
@@ -58,7 +58,7 @@ export function Hero () {
             <img
               className='hero__image'
               src='https://res.cloudinary.com/djc1umong/image/upload/v1628785222/PRO2_h5d5hr.png'
-              alt='nelson'
+              alt='Nelson Peluqueria Spa'
             />
           </picture>
         </div>
