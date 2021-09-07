@@ -37,9 +37,11 @@ export function SliderList ({ carouselImages }) {
     const list = [current, prev, next, first, last]
 
     list.forEach(item => {
-      const itemPos = item.dataset.pos
+      const itemPos = item?.dataset?.pos
 
-      item.dataset.pos = getPos(itemPos, newActivePos)
+      if (itemPos) {
+        item.dataset.pos = getPos(itemPos, newActivePos)
+      }
     })
   }
 
