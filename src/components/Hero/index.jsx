@@ -9,10 +9,8 @@ export function Hero () {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         setIsIntersecting(true)
-        console.log('Is intersecting')
       } else {
         setIsIntersecting(false)
-        console.log('No intersecting')
       }
     })
   }
