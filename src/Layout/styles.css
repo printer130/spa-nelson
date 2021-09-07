@@ -5,6 +5,7 @@
 
 .section__container {
  display: flex;
+ position: relative;
  align-items: center;
  justify-content: space-evenly;
 }

@@ -1,7 +1,6 @@
 import Home from './pages/home'
 import { Layout } from './Layout'
-import { Description } from './components'
-import { Services } from './pages/services'
+import { Description, Foo } from './components'
 import { version } from '../package.json'
 import { hairCuts, balayage, mechas } from './api/images'
 
@@ -63,7 +62,7 @@ function App () {
           p='Dan un aspecto de sofisticación y elegancia en la imagen. La línea es llevar un estilo con el que irradies luz y frescura.'
         />
       </Layout>
-      <Services />
+      <Foo />
     </>
   )
 }
