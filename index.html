@@ -29,6 +29,7 @@
     <!-- End Google Tag Manager -->
   </head>
   <body>
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59CVGZX"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -36,5 +37,33 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <noscript>Este sitio necesita internet para funcionar.</noscript>
+  
+    <!-- Messenger plugin del chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your plugin del chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "1179522485412863");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   </body>
 </html>
