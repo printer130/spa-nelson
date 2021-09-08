@@ -40,7 +40,10 @@ export function Hero () {
               Nelson Peluqueria <span> Spa</span>
             </h1>
           </div>
-          <div ref={ref} className='home__anchor_container'>
+          <div
+            ref={ref}
+            className='home__anchor_container'
+          >
             <a
               href='https://wa.link/4xfia9'
               target='_blank'
@@ -56,7 +59,7 @@ export function Hero () {
             <img
               className='hero__image'
               src='https://res.cloudinary.com/djc1umong/image/upload/v1628785222/PRO2_h5d5hr.png'
-              alt='Nelson Peluqueria Spa'
+              alt='Fotografia de Nelson Torrico | Nelson Peluqueria Spa'
             />
           </picture>
         </div>

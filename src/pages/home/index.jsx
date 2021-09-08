@@ -1,4 +1,4 @@
-import { Navbar, Hero, Foo } from '../../components'
+import { Navbar, Hero } from '../../components'
 
 import './styles.css'
 

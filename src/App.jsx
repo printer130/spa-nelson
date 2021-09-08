@@ -26,7 +26,7 @@ function App () {
           servicesDesc1='Tinte Base'
           servicesDesc2='Hidratación'
           servicesDesc3='Cepillado'
-          titleImage='Balayage |Cbba - Bolivia, Por Nelson Torrico.'
+          titleImage='Balayage | CBBA - Bolivia, Por Nelson Torrico.'
           altOrnament='El sofa mas gosu que vas a encontrar en behance'
           p=' Coloración  de cabello que aclara ligeramente y luce un aspecto natural como aclarado por el sol, con tonos más claros en las puntas.'
         />
@@ -41,7 +41,7 @@ function App () {
           servicesDesc3='Cepillado'
           servicesPrice='200 Bs.'
           titleImage='Exposición de un T-Rex en el museo de la Universidad de Manchester.'
-          altOrnament='El sofa mas gosu que vas a encontrar en behance'
+          altOrnament='Imagen de labios escarlata.'
           p='Dan un aspecto de sofisticación y elegancia en la imagen. La línea es llevar un estilo con el que irradies luz y frescura.'
         />
         <Description
@@ -58,7 +58,7 @@ function App () {
           servicesPrice='120 Bs.'
           titleImage='Exposición de un T-Rex en el museo de la Universidad de Manchester.'
           altImage='Foto de los rayitos mas geniales de Bolivia hechos en cochabamba'
-          altOrnament='El sofa mas gosu que vas a encontrar en behance'
+          altOrnament='Sombrero tipo campo con un corazon en el centro.'
           p='Dan un aspecto de sofisticación y elegancia en la imagen. La línea es llevar un estilo con el que irradies luz y frescura.'
         />
       </Layout>

@@ -19,7 +19,11 @@ export function Description ({
 }) {
   return (
     <div className={styles.description}>
-      <img className={styles.position} src={ornament} alt={altOrnament} />
+      <img
+        className={styles.position}
+        src={ornament}
+        alt={altOrnament}
+      />
       {
         ornament1 && <img className={styles.position} src={ornament1} alt={altOrnament} />
       }
