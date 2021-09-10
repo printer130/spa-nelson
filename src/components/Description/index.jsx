@@ -2,7 +2,7 @@ import styles from './description.module.css'
 import { Close } from '../svgs/close'
 import { SliderList } from '../SliderList'
 
-export function Description ({
+function Description ({
   title,
   p,
   ornament = null,
@@ -56,3 +56,5 @@ export function Description ({
     </div>
   )
 }
+
+export default Description

@@ -48,7 +48,7 @@ export function Hero () {
               href='https://wa.link/4xfia9'
               target='_blank'
               className='home__anchor'
-              rel='noreferrer'
+              rel='nofollow noopener noreferrer'
             >
               Contactar con Nelson por <span> whatsapp </span>
             </a>

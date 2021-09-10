@@ -1,5 +1,5 @@
-import './styles.css'
 import { NelsonPeluqueriaSpa } from '../../components/svgs/spaNelson'
+import './styles.css'
 
 export function Navbar () {
   return (
