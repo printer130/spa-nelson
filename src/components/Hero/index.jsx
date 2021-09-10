@@ -18,7 +18,7 @@ export function Hero () {
   useEffect(() => {
     const observer = new window.IntersectionObserver(handleIntersection, { threshold: 0.5 })
     observer.observe(ref.current)
-  }, [])
+  }, [isIntersecting])
 
   return (
     <>

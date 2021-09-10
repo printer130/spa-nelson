@@ -1,11 +1,9 @@
-import { lazy, Suspense } from 'react'
+import { Suspense } from 'react'
 import Home from './pages/home'
 import { Layout } from './Layout'
-import { Foo } from './components'
+import { Foo, Description } from './components'
 import { version } from '../package.json'
 import { hairCuts, balayage, mechas } from './api/images'
-
-const Description = lazy(() => import('./components/Description'))
 
 // const sofaImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628720883/sofa_avjdc2.webp'
 // const mouthImg = 'https://res.cloudinary.com/djc1umong/image/upload/v1628793956/fuegoMouth_on5m8e.webp'
