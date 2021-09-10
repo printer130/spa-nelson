@@ -3,26 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <title>Nelson Peluqueria Spa | Cochabamba - Bolivia</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="icon" type="image/jpg" href="https://res.cloudinary.com/djc1umong/image/upload/v1629319458/ll_jtjh2k.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://nelson-peluqueria.com/">
     <meta name="description" content="Nelson Peluqueria Spa, La mejor peluqueria para el cuidado de tu cabello." />
     <link rel="preconnect" href="https://googletagmanager.com">
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-5D9FGDZPJK"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D9FGDZPJK"></script>
     
     <meta property="og:url" content="https://nelson-peluqueria.com" />
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:title" content="Nelson Peluqueria Spa | Bolivia"/>
     <meta property="og:site_name" content="nelson-peluqueria.com"/>
-    <script defer type="module" src="/src/main.jsx"></script>
 
    <!-- Facebook Pixel Code -->
-  <script defer>
+  <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -34,13 +34,12 @@
   fbq('init', '523718388404178');
   fbq('track', 'PageView');
   </script>
-
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=523718388404178&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Facebook Pixel Code -->
     
-    <script defer>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -49,7 +48,7 @@
     </script>
 
     <!-- Google Tag Manager -->
-    <script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -57,22 +56,24 @@
     <!-- End Google Tag Manager -->
   </head>
   <body>
-    <div id="root"></div>
     
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59CVGZX"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
     <noscript>Este sitio necesita internet para funcionar.</noscript>
   
     <!-- Messenger plugin del chat Code -->
     <div id="fb-root"></div>
 
     <!-- Your plugin del chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
     <script>
-      const chatbox = document.getElementById('fb-customer-chat');
+      let chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "1179522485412863");
       chatbox.setAttribute("attribution", "biz_inbox");
 
@@ -87,7 +88,6 @@
         let js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-
         js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
