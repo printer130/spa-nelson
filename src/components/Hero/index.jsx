@@ -58,7 +58,7 @@ export function Hero () {
           <picture>
             <img
               className='hero__image'
-              src='https://res.cloudinary.com/djc1umong/image/upload/v1628785222/PRO2_h5d5hr.png'
+              src='./nelson.webp'
               alt='Fotografia de Nelson Torrico | Nelson Peluqueria Spa'
             />
           </picture>

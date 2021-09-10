@@ -84,7 +84,7 @@
       };
 
       (function(d, s, id) {
-        const js, fjs = d.getElementsByTagName(s)[0];
+        let js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
