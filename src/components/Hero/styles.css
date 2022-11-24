@@ -6,7 +6,6 @@
     height: 480px;
     margin-top: 60px;
     color: var(--seven);
-    background-image: url('https://res.cloudinary.com/djc1umong/image/upload/v1629319124/backgroundSpa_1_1_dd0bde.webp');
     background-size: contain;
     background-repeat: round;
 }
@@ -29,9 +28,11 @@
     margin: 0;
     margin-bottom: 1rem;
 }
+
 .home__subtitle span {
     color: #ec4887;
 }
+
 .home__anchor_container {
     position: sticky;
 }
@@ -55,60 +56,64 @@
     background-color: var(--six);
     object-fit: contain;
     box-shadow: inset 0 0 170px 0px var(--six),
-                inset 0 0 60px 0px var(--nav);
+        inset 0 0 60px 0px var(--nav);
     border-radius: 50%;
 }
 
 .portal {
     display: flex;
     position: fixed;
-    bottom: 100px;
+    bottom: 25px;
     right: 25px;
     z-index: 99;
     width: 270px;
-    background: #ec4887;
+    background: #252525;
     height: 31px;
     place-content: center;
     text-decoration: none;
     font-weight: 300;
     align-items: center;
-    color: aliceblue;
+    padding: .4rem .8rem;
+    color: #dc93ae;
     border-radius: 7px;
 }
+
 .portal span {
     margin-left: 4px;
-    color: var(--cero);
+    color: #fbf9fa;
 }
 
 @media only screen and (max-width: 768px) {
-  .home__section {
-      flex-direction: column-reverse;
-      margin-bottom: 50px;
-      padding-top: 60px;
-  }
+    .home__section {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        padding-top: 60px;
+    }
 
-  .home__container {
-      position: relative;
-      border-radius: 12px;
-      color: var(--five);
-      top: -50px;
-      background-color: var(--six);
-      align-items: center;
-      text-align: center;
-  }
-  .home__subtitle {
-      font-size: 2.3rem;
-      line-height: .9;
-  }
+    .home__container {
+        position: relative;
+        border-radius: 12px;
+        color: var(--five);
+        top: -50px;
+        background-color: var(--six);
+        align-items: center;
+        text-align: center;
+    }
 
-  .home__subtitle span {
-      color: var(--four);
-  }
+    .home__subtitle {
+        font-size: 2.3rem;
+        line-height: .9;
+    }
 
-  .home__anchor {
-      width: auto;
-  }
-  .portal {
-      bottom: 100px;
-  }
+    .home__subtitle span {
+        color: var(--four);
+    }
+
+    .home__anchor {
+        width: auto;
+    }
+
+    .portal {
+        bottom: 100px;
+    }
 }

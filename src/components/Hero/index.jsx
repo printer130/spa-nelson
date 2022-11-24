@@ -54,7 +54,8 @@ export function Hero () {
             </a>
           </div>
         </div>
-        <div>
+
+        {/* <div>
           <picture>
             <img
               className='hero__image'
@@ -62,7 +63,7 @@ export function Hero () {
               alt='Fotografia de Nelson Torrico | Nelson Peluqueria Spa'
             />
           </picture>
-        </div>
+        </div> */}
       </section>
     </>
   )

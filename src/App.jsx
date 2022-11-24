@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
 import Home from './pages/home'
 import { Layout } from './Layout'
-import { Foo, Description } from './components'
+import { Foo, Description, Navbar } from './components'
 import { version } from '../package.json'
 import { hairCuts, balayage, mechas } from './api/images'
 
@@ -16,7 +16,8 @@ console.log('V:', version)
 function App () {
   return (
     <>
-      <Home />
+      {/*   <Home /> */}
+      <Navbar />
       <Layout>
         <Suspense fallback={<div>loading...</div>}>
           <Description
